@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* inline-block edirik cunki p tagi blok element oldugu ucun divin maximum widthini tutur   */
+/* divin daxilinde elementin olcusu 600px-den azdirsa divin olcusude ona uygun olaraq deyisir . */
+/* max-width verilmese daxildeki elementin olcusu boyukde olsa kicikde olsa divin olcusu sabit olaraq qalir  */
+/* width esasen faizle verilir responsivliy ucun */
+/* min-width de max-imumun eksi olaraq daxildeki elementin olcusu ne olur olsun minimum 500 px-den basliyir maksimumda bir limiti yoxdur */
+/* max-width ve min-width ikisi bir yerde verilir esasen bir intervala salmaq ucun  */
+
+  #max-min-width .max-width,.min-width {
+    display: inline-block;      
+    background-color:aqua;
+    margin-bottom:30px;
+    max-width: 800px;
+    min-width: 500px;
+}
+/* min-height minimum uzunlug olcusunu bildirir daxildeki elementin olcusu artdiqca divin olcusude ona uygun olaraq artir ancaq minimum verilen olcuden baslayarq artir. */
+#max-min-height .min-height{
+     width: 50%;
+     background-color:blueviolet;
+     min-height:20px;
+     margin-bottom: 30px;
+    
+}
+
+
+/* max-height max-width verdikden sonra daxildeki element divin xaricine dasirsa onda overflow dan istifade olunur  */
+/* overflow:hidden kenara cixan hisseni silir  */
+/* overflow:scrool x veyaxudda y oxu uzre yada tek yazilanda hiddenin funksiyasini yerine yetirir sonra scroll cixarir */
+
+
+#max-min-height .max-height{
+width: 50%;
+background-color:brown;
+max-height: 50px;
+overflow: scroll;
+
+
+
+
+}
+.max-height p{
+    text-decoration: underline;
+    text-overflow:ellipsis;
+    font-size:20px;
+    font-weight: 800;
+}
+
