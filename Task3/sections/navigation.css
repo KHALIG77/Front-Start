@@ -1,0 +1,12 @@
+ 
+ /* POSITION:FIXEDI BACKGROUNDU VERIB AMMA DAXILINDE HECBIR ELEMENT VERMEYENDE YOX OLUR ANCAQ ELEMENT OLANDA GORSENIR */
+ 
+ 
+ #navigation .nav-bar{
+    color:white;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    height: 70px;
+   
+    }

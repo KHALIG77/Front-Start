@@ -1,0 +1,18 @@
+#stickydev  .sticky-div{
+ 
+    margin:100px auto;
+    background-color: aqua;
+    border-color:black;
+    border-style: dashed ;
+    border-width: 5px;
+    width: 60%;
+    height: 400px;
+    
+    }
+    #stickydev .sticky-child{
+        position: sticky;
+        top:0;
+        background-color:red;
+        width: 40%;
+        height:200px ;
+    }

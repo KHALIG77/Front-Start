@@ -1,0 +1,39 @@
+#adoption #box-1{
+
+    position: relative;
+    top: 200px;
+    width: 70%; 
+    height: 600px;
+    background-color: aqua;
+    top:30px;  
+    left:180px;
+   
+}
+
+#adoption .box{
+    border-style: dashed;
+    border-color: red;
+    position: absolute;
+    width: 70%;
+    height: 70%;
+   
+}
+
+#adoption #box-2{
+    
+    top:100px;
+    left:110px;
+    background-color: black;
+}
+#adoption #box-3{
+    top:60px;
+    left:80px;
+    background-color: brown;
+}
+#adoption #box-4{
+   
+    top:40px;
+    left:70px;
+    background-color: blueviolet;
+  
+}
