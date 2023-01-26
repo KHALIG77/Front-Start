@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.forhover{
+   position: relative;
+    height: 270px;
+    width: 250px;
+    
+    border: 2px rgb(15, 10, 8) solid;
+    padding: 30px;
+
+}
+i{
+    position: relative;
+    top:50px;
+}
+ .forhover h2{
+font-size: 18px;
+font-weight: 600;
+position: relative;
+top:100px;
+
+}
+.forhover:hover{
+    position: relative;
+    top:50px;
+    left:100px;
+    background-color: aqua;
+    color:white;
+
+}
+.why-code{
+    
+    width: 40%;
+    height: 200px;
+    border: 4px navy solid;
+    padding-left:10px;
+    position: relative;
+}
+.text-part{
+    height: 50%;
+    font-size:25px;
+    position: absolute;
+    top:30px;
+ 
+}
+.text-part span{
+    font-weight: bold;
+    
+}
+.text-about{
+    position: absolute;
+    bottom:0;
+}
+.text-about p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.text-about::before{
+    content: "";
+    display: block;
+    background-image: linear-gradient(red,yellow,black);
+    position: relative;
+    bottom:10px;
+    width: 30%;
+    height: 5px;
+}
+.code-edu{
+    display: flex;
+    width: 40%;
+    height: 250px;
+
+}
+.code-image{
+  
+    width: 40%;
+    height: 250px;
+    
+
+}
+.code-image img{
+    max-width: 100%;
+    height: 100%;
+}
+.code-about{
+border: 3px solid black;
+position: relative;
+width: 40%;
+height: 250px;
+}
+.code-about-absolute{
+    position: absolute;
+    top:40px;
+    left:15px;
+   
+}
+.code-about-absolute p,a{
+   font-style: oblique;
+    margin-top:15px;
+    display: block;
+    text-decoration:none;
+    color:black;
+
+}
+.main{
+    border: 2px solid rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
