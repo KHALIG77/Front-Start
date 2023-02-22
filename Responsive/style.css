@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#first-section{
+   
+   width: 80%;
+   height: 400px;
+   margin:auto;
+   margin-top: 50px;
+}
+.first-container{
+   
+    display: flex;
+    justify-content:space-between;
+}
+#first-section .about-part{
+   margin-bottom:20px;
+}
+
+
+
+#first-section .profession-part{
+   
+    width: 50%;
+     height: 400px;
+    
+}
+.education-word{
+    font-size:50px; 
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    opacity: 0.6;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+   
+   
+}
+.area-word{
+    font-size:2.375rem;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+    
+ 
+}
+.area-word::after{
+content: "";
+display: block;
+background-image: linear-gradient(red,yellow,black);
+position: relative;
+top:40px;
+width: 20%;
+height: 4px;
+
+}
+.text{
+    padding: 20px;
+}
+.about-text{
+    margin-top:80px;
+}
+.about-text p{
+    font-size: 20px;
+}
+.profession-part{
+
+display: flex;
+}
+
+
+.digital,.programming,.cyber,.design{
+    border-style: ridge;
+border-width: 0.5px;
+border-color:black;
+}
+.digital,.design,.cyber,.programming{
+    width: 100%;
+    height: 50%;
+    
+    
+}
+
+.digital:hover{
+    cursor: pointer;
+    transition:all 0.5s;
+    transition-timing-function:linear;
+    transform: scale(1.1,1.3);
+    background-color: blueviolet;
+    color:white;
+
+}
+.design:hover{
+    cursor: pointer;
+    transition:all 0.5s;
+    transition-timing-function:linear;
+    transform: scale(1.1,1.3);
+    background-color: rgb(194, 194, 2);
+    color:white;
+}
+.programming:hover{
+    cursor: pointer;
+    transition:all 0.5s;
+    transition-timing-function:linear;
+    transform: scale(1.1,1.3);
+    background-color: green;
+    color:white;
+}
+.cyber:hover{
+    cursor: pointer;
+    transition:all 0.5s;
+    transition-timing-function:linear;
+    transform: scale(1.1,1.3);
+    background-color: rgb(10, 10, 207);
+    color:white;
+}
+.programming-icon span,.cyber-icon span,.digital-icon span,.design-icon span{
+    font-size:70px;
+    font-weight: 100;
+}
+.programming .programming-word,.cyber-word,.digital-word,.design-word{
+    margin-top:20%;
+}
+.programming,.design {
+    padding-top:10%;
+    padding-left:10px;
+}
+.cyber,.digital{
+    padding-top:10%;
+    padding-left:5px;
+}
+
+ @media only screen and (max-width:762px){
+    .first-container{
+        flex-direction:column;
+    }
+   
+    #first-section .profession-part,.about-part{
+        flex-wrap:wrap;
+        width: 100%;
+    }
+    .first-col,.second-col{
+       width: 100%;
+    }
+    .programming,.design,.digital,.cyber{
+        display:flex;
+        justify-content: space-around;
+        padding:0;
+       
+    }
+    .div{
+        border-style: none;
+        
+    }
+ 
+  
+}
+    
+
+ 
